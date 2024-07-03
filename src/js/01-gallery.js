@@ -17,7 +17,7 @@ function createGalleryItem(items) {
         })
         .join('');
 }
- src = "https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.0/simple-lightbox.min.js";
+ 
 listElement.insertAdjacentHTML('beforeend', photosMarkup);
 
 const galleryHandler = new SimpleLightbox('.gallery a', {

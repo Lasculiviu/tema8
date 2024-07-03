@@ -1,7 +1,4 @@
 
-// Importă funcția throttle din lodash
-import throttle from 'https://cdn.jsdelivr.net/npm/lodash.throttle@4.1.1/index.js';
-
 // Selectarea formularului
 const form = document.querySelector('.feedback-form');
 
