@@ -1,0 +1,2 @@
+var iframe=document.querySelector("#vimeo-player"),player=new Vimeo.Player(iframe),LOCAL_STORAGE_KEY="vimeo-player-current-time";player.on("loaded",(function(){var e=localStorage.getItem(LOCAL_STORAGE_KEY);null!==e&&player.setCurrentTime(parseFloat(e)).catch((function(e){console.error("Error setting current time:",e)}))})),player.on("timeupdate",(function(e){localStorage.setItem(LOCAL_STORAGE_KEY,e.seconds)})),player.on("ended",(function(){localStorage.removeItem(LOCAL_STORAGE_KEY)}));
+//# sourceMappingURL=02-video.54eaad6a.js.map
